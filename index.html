@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="star_audio_book">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>star_audio_book</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ✅ Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBCcR9VnFJZRu5-zDis54YQ0Mn48fAaa-Q",
+      authDomain: "staraudiobook-4f0f0.firebaseapp.com",
+      projectId: "staraudiobook-4f0f0",
+      storageBucket: "staraudiobook-4f0f0.appspot.com",
+      messagingSenderId: "163021613238",
+      appId: "1:163021613238:web:8fa5ad4f2cecc246ad1e17",
+      measurementId: "G-P3LBX0R8VY"
+    };
+
+    const app = firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>
